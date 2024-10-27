@@ -23,8 +23,6 @@ function LoginPage() {
                         <h2 className="text-center mb-4 font-weight-bold">Login</h2>
 
                         {/* insert code here to create input elements for the variables email and  password */}
-
-                        <form className='login-card '>
                             <div className="mb-3">
                                 <label htmlFor="email" className="form-label">Email</label>
                                 <input
@@ -52,7 +50,6 @@ function LoginPage() {
                             <p className="mt-4 text-center">
                                 New here? <a href="/app/register" className="text-primary">Register Here</a>
                             </p>
-                        </form>
                     </div>
                 </div>
             </div>

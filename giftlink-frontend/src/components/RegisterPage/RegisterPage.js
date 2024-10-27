@@ -22,9 +22,7 @@ function RegisterPage() {
                 <div className="col-md-6 col-lg-4">
                     <div className="register-card p-4 border rounded">
                         <h2 className="text-center mb-4 font-weight-bold">Register</h2>
-
                         {/* insert code here to create input elements for all the variables - firstName, lastName, email, password */}
-                        <form className='register-card'>
                             <div className="mb-4">
                                 <label htmlFor="firstName" className="form label"> First Name</label>
                                     <input
@@ -74,7 +72,6 @@ function RegisterPage() {
                             <p className="mt-4 text-center">
                                 Already a member? <a href="/app/login" className="text-primary">Login</a>
                             </p>
-                        </form>
                     </div>
                 </div>
             </div>
